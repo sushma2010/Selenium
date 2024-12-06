@@ -1,0 +1,26 @@
+package SeleniumProject.Webautomation.TestUtils;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class BaseTest {
+	public WebDriver driver;
+	@BeforeTest
+	public void Config() throws InterruptedException {
+		 driver= new ChromeDriver();
+		 System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Desktop\\selenium\\Webautomation\\src\\test\\java\\resources\\chromedriver.exe");
+		 driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+		Thread.sleep(3000);
+		
+
+
+	}
+}

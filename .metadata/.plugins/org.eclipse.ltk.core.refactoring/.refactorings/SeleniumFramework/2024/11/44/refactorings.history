@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LandinPage.java&apos; to &apos;SeleniumFramework/src/main/java/selenium.SeleniumFramework.pageobject&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumFramework&apos;&#x0D;&#x0A;- Destination element: &apos;SeleniumFramework/src/main/java/selenium.SeleniumFramework.pageobject&apos;&#x0D;&#x0A;- Original element: &apos;selenium.SeleniumFramework.pageobject.LandinPage.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;selenium.SeleniumFramework.pageobject" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;selenium.SeleniumFramework.pageobject{LandinPage.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1730558082865" units="1" version="1.0"/>
+</session>

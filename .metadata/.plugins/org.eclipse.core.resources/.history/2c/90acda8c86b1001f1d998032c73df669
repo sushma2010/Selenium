@@ -1,0 +1,22 @@
+package hat;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Child {
+
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://only-testing-blog.blogspot.com/2014/09/selectable.html");
+		Actions a= new  Actions(driver);
+		a.moveToElement(driver.findElement(By.cssSelector("[aria-label='Fashion']"))).build().perform();
+		a.moveToElement(driver.findElement(By.linkText("Women Footwear"))).build().perform();
+		a.moveToElement(driver.findElement(By.linkText("Women Casual Shoes"))).click().build().perform();
+		driver.close();
+	}
+
+
+}

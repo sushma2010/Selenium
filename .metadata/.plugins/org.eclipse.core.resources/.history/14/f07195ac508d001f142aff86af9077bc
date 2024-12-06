@@ -1,0 +1,62 @@
+package SeleniumProject.Webautomation.TestUtils;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class BaseTest2 {
+	public WebDriver driver;
+	@Test
+	public void project2() throws InterruptedException {
+	 driver= new ChromeDriver();
+	 System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Desktop\\selenium\\Webautomation\\src\\test\\java\\resources\\chromedriver.exe");
+	 driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+	Thread.sleep(3000);
+	//---------------------------
+	WebElement SaticDown= driver.findElement(By.id("dropdown-class-example"));
+	Select dropdown=new Select(SaticDown);
+	dropdown.selectByIndex(1);
+	//-------------------
+	driver.findElement(By.id("autocomplete")).sendKeys("Ind");
+	List<WebElement> options=  driver.findElements(By.cssSelector("ui-menu-item"));
+	for( WebElement option: options) {
+		if(option.getText().equalsIgnoreCase("India")) {
+			option.click();
+		}
+	}
+	//---------------------------
+	driver.findElement(By.name("enter-name")).sendKeys("Sushma");
+	driver.findElement(By.id("alertbtn")).click();
+	driver.switchTo().alert().accept();
+	//--------------
+	driver.findElement(By.cssSelector("#opentab")).click();
+	Set<String>tab= driver.getWindowHandles();
+	Iterator<String>it= tab.iterator();
+	String parentid= it.next();
+	String childid= it.next();
+	driver.switchTo().window(childid);
+	String mailid= driver.findElement(By.xpath("//div[@class='support float-left']/div[2]/span")).getText();
+	Assert.assertEquals(mailid, "info@qaclickacademy.com");
+	driver.switchTo().window(parentid);
+	//-------------
+	driver.findElement(By.id("openwindow")).click();
+	Set<String>window= driver.getWindowHandles();
+	Iterator<String>its= window.iterator();
+	String parent= it.next();
+	String child= it.next();
+	driver.switchTo().window(childid);
+	String emailid= driver.findElement(By.xpath("//div[@class='support float-left']/div[2]/span")).getText();
+	Assert.assertEquals(emailid, "info@qaclickacademy.com");
+	driver.switchTo().window(parent);
+	}
+	
+	
+}

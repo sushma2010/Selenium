@@ -1,0 +1,22 @@
+package SeleniumProject.Webautomation.TestUtils;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
+
+public class BaseTest2 {
+	public WebDriver driver;
+	@Test
+	public void project2() throws InterruptedException {
+	 driver= new ChromeDriver();
+	 System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Desktop\\selenium\\Webautomation\\src\\test\\java\\resources\\chromedriver.exe");
+	 driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+	Thread.sleep(3000);
+	WebElement SaticDown= driver.findElement(By.id("dropdown-class-example"));
+	Select dropdown=new Select(SaticDown);
+	dropdown.selectByIndex(0);
+	}
+}
