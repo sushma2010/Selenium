@@ -1993,3 +1993,4 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2024-12-05 18:54:22,682 [Worker-6: Launching Standalonetest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
 2024-12-05 18:54:26,234 [Worker-6: Launching Standalonetest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
 2024-12-05 18:54:26,241 [Worker-6: Launching Standalonetest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-06 11:43:36,500 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
