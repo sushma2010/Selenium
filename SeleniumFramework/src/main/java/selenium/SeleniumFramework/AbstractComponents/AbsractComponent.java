@@ -31,13 +31,7 @@ public class AbsractComponent {
 		((JavascriptExecutor) driver).executeScript("document.body.style.zoom='0.7';"); // Adjust the value as needed
 	}
 
-	public String getScreenshot(String testCaseName) throws IOException {
-		TakesScreenshot ts= (TakesScreenshot)driver;
-		File source = ts.getScreenshotAs(OutputType.FILE);
-		File file = new File(System.getProperty("user.dir")+"//reports"+testCaseName+".png");
-		FileUtils.copyFile(source,file);
-		return System.getProperty("user.dir")+"//reports"+testCaseName+".png";
-	}
+	
 
 	public CartPage GoToCartPage() {
 		Cart.click();
@@ -60,8 +54,7 @@ public void waitForElementToWebEleAppear(WebElement findBy) {
 	public void waitForElementToDissappear(WebElement ele) {
 		
 		WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(18));
-		wait.until(ExpectedConditions.invisibilityOf(ele));
-		
+		wait.until(ExpectedConditions.invisibilityOf(ele));		
 	}
 
 }
