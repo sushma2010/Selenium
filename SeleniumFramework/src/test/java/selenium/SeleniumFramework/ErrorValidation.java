@@ -8,14 +8,20 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import selenium.SeleniumFramework.TestComponent.BaseTest;
+import selenium.SeleniumFramework.TestComponent.Retry;
 import selenium.SeleniumFramework.pageobject.CartPage;
 import selenium.SeleniumFramework.pageobject.ConformationPage;
 import selenium.SeleniumFramework.pageobject.ProductCatalog;
 import selenium.SeleniumFramework.pageobject.checkOutPage;
+import org.testng.annotations.Test;
+import org.testng.annotations.DataProvider;
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+
 
 public class ErrorValidation extends BaseTest{	
 	
-	@Test(dataProvider="getdata")
+	@Test(dataProvider="getdata", retryAnalyzer=Retry.class)
 	public void loginerror(String email, String password) throws IOException, InterruptedException  {
 		landingPage.loginApplication(email,password );
 		landingPage.geterrormessage();

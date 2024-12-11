@@ -21,6 +21,8 @@ public class Listeners extends BaseTest implements ITestListener {
 	ExtentTest test;
 	ExtentReports extent= ExtentReporterNG.getReoprtObject();
 	
+	ThreadLocal<ExtentTest> extentTest= new ThreadLocal<ExtentTest>();//Thread Safe
+	//parallel ="tests"
 	@Override
 	 public void onTestStart(ITestResult result) {
 		//result this variable hold the info about test that is going to get executed
@@ -28,18 +30,19 @@ public class Listeners extends BaseTest implements ITestListener {
 		 //first line to execute   
 		//this hold the entry to your report
 		test = extent.createTest(result.getMethod().getMethodName());
-		  }
+		extentTest.set(test);//unique thread id will be created of each test and store it as map
+	}
 	
 	@Override
 	 public void onTestSuccess(ITestResult result) {
-		   test.log(Status.PASS,  "test pass");
+		extentTest.get().log(Status.PASS,  "test pass");
 		   }
 	
 	@Override
 	 public void onTestFailure(ITestResult result) {
 		    // not implemented
-		 test.fail(result.getThrowable());//it shows logs were it failed msg
-		 
+		 extentTest.get().fail(result.getThrowable());//it shows logs were it failed msg
+		 // tis will say which thread id should be used
 		 try {
 			driver= (WebDriver)result.getTestClass().getRealClass().getField("driver")
 					 .get(result.getInstance());
@@ -59,8 +62,9 @@ public class Listeners extends BaseTest implements ITestListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();// if no sceeen shot tell no path present
 		}
-		
-		 test.addScreenCaptureFromPath(FilePath,result.getMethod().getMethodName());
+		extentTest.get().addScreenCaptureFromPath(FilePath,result.getMethod().getMethodName());
+		 //below line for without sny above for paralle execution
+		// test.addScreenCaptureFromPath(FilePath,result.getMethod().getMethodName());
 		  }
 	 //<listeners>
 	//	<listener class-name="selenium.SeleniumFramework.TestComponent.Listeners"></listener>

@@ -2064,3 +2064,75 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2024-12-09 19:45:12,504 [Worker-101: Launching ErrorValidation] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
 2024-12-09 19:45:32,591 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
 2024-12-09 19:45:32,593 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-09 20:49:22,470 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-09 20:49:22,472 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-09 20:51:53,946 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2024-12-09 20:51:53,946 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2024-12-09 20:51:53,948 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/SeleniumFramework
+2024-12-09 20:51:53,949 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2024-12-09 20:51:53,949 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2024-12-09 20:51:53,951 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/SeleniumFramework
+2024-12-09 20:52:09,739 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-09 20:52:09,742 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-09 21:28:35,402 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-09 21:28:35,405 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-09 21:29:14,895 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-09 21:29:14,897 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-09 21:29:49,801 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-09 21:29:49,803 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-09 21:33:36,789 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-09 21:33:36,792 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-09 21:33:42,832 [Worker-124: Launching ErrorValidation] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2024-12-09 21:33:42,834 [Worker-124: Launching ErrorValidation] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2024-12-09 21:37:47,994 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-09 21:37:47,997 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-09 21:37:53,102 [Worker-131: Launching ErrorValidation] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2024-12-09 21:44:00,697 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-09 21:44:00,702 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-09 21:44:09,879 [Worker-132: Launching ErrorValidation] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2024-12-09 21:44:09,880 [Worker-132: Launching ErrorValidation] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2024-12-10 11:35:15,057 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-10 11:35:15,873 [Worker-2: Executing the early startup extensions] INFO  c.b.BrowserStackPluginActivator - Starting BrowserStack Plugin...
+2024-12-10 11:35:29,345 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-10 11:35:29,353 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-10 11:43:05,454 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2024-12-10 11:43:05,458 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2024-12-10 11:43:05,460 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/SeleniumFramework
+2024-12-10 11:43:05,461 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2024-12-10 11:43:05,462 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2024-12-10 11:43:05,464 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/SeleniumFramework
+2024-12-10 11:43:49,476 [Worker-22: Building Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: selenium:SeleniumFramework:0.0.1-SNAPSHOT @ C:\Users\User\Desktop\selenium\SeleniumFramework\pom.xml.
+2024-12-10 11:43:50,328 [Worker-22: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-10 11:43:50,332 [Worker-22: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-10 11:45:00,289 [Worker-24: Building Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: selenium:SeleniumFramework:0.0.1-SNAPSHOT @ C:\Users\User\Desktop\selenium\SeleniumFramework\pom.xml.
+2024-12-10 11:45:00,922 [Worker-24: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-10 11:45:00,926 [Worker-24: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-10 11:45:16,077 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-10 11:45:16,080 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-10 11:56:05,270 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: selenium:SeleniumFramework:0.0.1-SNAPSHOT @ C:\Users\User\Desktop\selenium\SeleniumFramework\pom.xml.
+2024-12-10 11:56:05,730 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-10 11:56:05,734 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-10 11:57:59,268 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2024-12-10 11:57:59,268 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2024-12-10 11:57:59,270 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/SeleniumFramework
+2024-12-10 11:57:59,271 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2024-12-10 11:57:59,271 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2024-12-10 11:57:59,273 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/SeleniumFramework
+2024-12-10 11:58:02,195 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-10 11:58:02,198 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-10 12:00:28,700 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-10 12:00:28,704 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources
+2024-12-10 12:49:37,934 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2024-12-10 12:49:37,936 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2024-12-10 12:49:37,937 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/SeleniumFramework
+2024-12-10 12:49:37,938 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2024-12-10 12:49:37,939 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2024-12-10 12:49:37,940 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/SeleniumFramework
+2024-12-10 16:20:53,804 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2024-12-10 16:20:53,805 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2024-12-10 16:20:53,807 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/SeleniumFramework
+2024-12-10 16:20:53,807 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2024-12-10 16:20:53,808 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2024-12-10 16:20:53,809 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/SeleniumFramework
+2024-12-10 18:04:45,081 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\main\resources
+2024-12-10 18:04:45,084 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Desktop\selenium\SeleniumFramework\src\test\resources

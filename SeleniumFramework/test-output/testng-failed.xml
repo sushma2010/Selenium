@@ -5,7 +5,7 @@
     <classes>
       <class name="selenium.SeleniumFramework.ErrorValidation">
         <methods>
-          <include name="loginerror" invocation-numbers="0"/>
+          <include name="loginerror" invocation-numbers="0 0"/>
           <include name="TearDown"/>
           <include name="launchApplication"/>
         </methods>
