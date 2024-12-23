@@ -36,18 +36,23 @@ public class ProductCatalog extends AbsractComponent  {
     By ToastMessage= By.cssSelector("#toast-container");
    
     
-   public List<WebElement> getProductList() {
+   public List<WebElement> getProductList() throws InterruptedException {
 	   waitForElementToAppear(productsBy);
+	   
 	   return products;
+	   
    }
    
-   public WebElement getproductName(String productName) {
+   public WebElement getproductName(String productName) throws InterruptedException {
+	   
 	   WebElement prod=getProductList().stream().filter(product->product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null);
-   return prod;
+	   return prod;
+   
    }
    
    public void addProductToCart(String productName) throws InterruptedException {
-	   WebElement prod= getproductName( productName);
+	   WebElement prod= getproductName(productName);
+	   
 		prod.findElement(addToCart).click();
 		waitForElementToAppear(ToastMessage);
 		Thread.sleep(1000);
