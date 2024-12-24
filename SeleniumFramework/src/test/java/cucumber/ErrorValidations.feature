@@ -28,4 +28,4 @@ Feature: Error validations
 
     Examples: 
        | name  | password | ProductName|
-      | suhani@gmail.com | Suhani@20100|ZARA COAT 33 |
+      | suhani@gmail.com | Suhani@20100|ADIDAS ORIGINAL |
