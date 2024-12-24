@@ -41,7 +41,7 @@ public class ErrorValidation extends BaseTest{
 		Thread.sleep(2000);
 		Boolean match= CartPage.VerifyProductDisplay("ZARA COAT 33");
 		Assert.assertTrue(match);
-		//test
+		
 	
 	}
 	
